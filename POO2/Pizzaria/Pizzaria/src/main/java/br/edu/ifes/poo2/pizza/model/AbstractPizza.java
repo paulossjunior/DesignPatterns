@@ -8,14 +8,13 @@ public abstract class AbstractPizza implements Pizza {
 	
 	private List<Queijo> queijos;
 	
-	@Override
+	
 	public void adicionarMassa(Massa massa) {
 		
 		this.massa = massa;
 
 	}
 
-	@Override
 	public void AdicionarQueijo(List<Queijo> queijos) {
 		 this.queijos = queijos;
 
